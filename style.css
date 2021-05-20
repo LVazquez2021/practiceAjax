@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 900px;
+    height: -20vh;
+    margin-top: 25px;
+}
+
+.container p {
+    position: relative;
+    left: 150px;
+}
+
+#btnShow {
+    margin: 25px;
+    background-color: chartreuse;
+    padding: 15px;
+    color: white;
+    border-radius: 15px;
+}
+
+#btnShow:hover {
+    background-color: blueviolet;
+}
+
+#h3Date,
+#detail,
+#image {
+    margin-top: 25px;
+}
+
+#image {
+    width: 700px;
+    height: 500px;
+}
