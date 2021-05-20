@@ -9,6 +9,7 @@
     align-items: center;
     align-content: center;
     justify-content: center;
+    /* text-align: center; */
     width: 900px;
     height: -20vh;
     margin-top: 25px;
@@ -16,7 +17,7 @@
 
 .container p {
     position: relative;
-    left: 150px;
+    left: 100px;
 }
 
 #btnShow {

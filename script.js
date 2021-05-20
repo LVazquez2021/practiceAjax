@@ -18,7 +18,7 @@ btnShow.addEventListener("click", function() {
         console.log(datePicture.value);
         console.log(response);
         h1Title.textContent = title;
-        h3Date.textContent = `Autor: ${copyright} || fecha de la picture:${date}`
+        h3Date.textContent = `Autor: ${copyright || 'a definir'} || fecha de la picture:${date}`
         detail.textContent = `${explanation}`;
         detail.style.fontSize = "25px";
         detail.style.fontFamily = 'verdana';
